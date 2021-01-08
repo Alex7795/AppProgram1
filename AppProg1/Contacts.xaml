@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProg1.Contacts">
+
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Kontakter" Padding="0,0,75,0" TextColor="White" HorizontalTextAlignment="Center" FontSize="30"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Label Text="Alexander Christensen" Padding="0,24,0,24" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Image Source="Billeder/contact.jpg" HeightRequest="240" WidthRequest="240"/>
+            <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                <Button Text="Ring til mig" TextTransform="None" FontSize="16" FontAttributes="Bold" Margin="128,12,128,0" Clicked="Call"/>
+                <Button Text="Send en besked" TextTransform="None" FontSize="16" FontAttributes="Bold" Margin="128,0,128,0" Clicked="Message"/>
+                <Button Text="Email mig" TextTransform="None" FontSize="16" FontAttributes="Bold" Margin="128,0,128,0" Clicked="Email"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

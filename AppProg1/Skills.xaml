@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProg1.Skills">
+
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Erfaringer" TextColor="White" HorizontalTextAlignment="Center" FontSize="30" Padding="0,0,75,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="Black">
+                <Label Text="Kendte sprog" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center" FontSize="32" Padding="12,12,12,12"/>
+                <ContentView Background="Gray">
+                    <Label Text="Jeg har erfaringer inde for følgende sprog: C#, Java, JSON, Swift, Javascript, MySQL og HTML&#x0a;&#x0a;Disse er sprog jeg ikke nødvendigvis har arbejdet en del med, men haft enten et kursus, eller skoleforløb omkring, eller måske bare brugt minimalt: Xamarin, Python, C+ og minimal erfaring med Unity." TextColor="White" FontSize="16" Padding="24,12,24,12"/>
+                </ContentView>
+                
+                <Label Text="Tdiligere projekter" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center" FontSize="32" Padding="12,36,12,12"/>
+                
+                <ContentView Background="Gray">
+                    <Label Text="Jeg har tidligere arbejdet på en serie af Android apps omhandlende MSC, med slideshows der skifter billede alt efter hvor langt du er i historien, hjemmesider med admin funktioner og redigerings moduler.&#x0a;&#x0a;Database og admin side over et autoværksted så de kan følge med i hvilke biler de har, hvad der skal laves, hvornår det skal laves, kunde kartotek og meget mere. Derudover har jeg lavet lidt med AR i Unity" TextColor="White" FontSize="16" Padding="24,12,24,12"/>
+                </ContentView>
+
+                <Label Text="Fritidsprojekter" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center" FontSize="32" Padding="12,36,12,12"/>
+
+                <ContentView Background="Gray">
+                    <Label Text="Jeg har stor interesse indenfor App udvikling, og har derfor i min fritid arbejdet på nogle apps som mine venner og jeg kunne finde brugbart for os personligt, eller generelt sjovt.&#x0a;&#x0a;Jeg hygger mig rigtig meget med at sidde og lege med det, og det er sjovt at vise det frem når det endelig er færdigt.&#x0a;&#x0a;Et godt eksmepel er et drukspil jeg udviklede med hjælp fra min vennegruppe så vi havde et drukspil på telefonen vi kunne spille når vi var til fester sammen. Mine venner hjalp med ideer til funktionalitet og features jeg kunne implementere, og spørgsmål til selve spillet.&#x0a;&#x0a;Det syntes jeg er interessant og spændende, og det er altid sjovt at se noget man har arbejdet på længe udvikle sig til noget brugbart og sjovt." TextColor="White" FontSize="16" Padding="24,12,24,12"/>
+                </ContentView>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

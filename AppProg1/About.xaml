@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProg1.About">
+    
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Kort om mig" Padding="0,0,75,0" TextColor="White" HorizontalTextAlignment="Center" FontSize="30" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="black">
+            <Image Source="billeder/mig.jpg" HeightRequest="240" WidthRequest="240" Margin="0,24,0,0"/>
+            <StackLayout>
+                <ScrollView Padding="24,24,24,24" BackgroundColor="DimGray">
+                    <Label Text="Mit navn er Alexander, jeg er 20 år gammel, og er bosat i Randers. Jeg er studerende på Mercantec som Datatekniker med speciale i programmering og er pt på Hovedforløb 4, hvor vi blandt andet lærer om Xamarin.&#x0a;&#x0a;Jeg arbejder for det meste med C#, Java, Swift, HTML og CSS mm. Og har blandt andet lavet adskillige Android apps i Java, Hjemmesider i HTML og CSS3, mindre programmer i C# og meget mere.&#x0a;&#x0a;Uden for arbejdslivet bruger jeg rigtig meget tid sammen med familie og venner på bla. Biler, spil, byen og film.&#x0a;&#x0a;I fremtiden ser jeg gerne mig selv i en stilling som app programmør, det er klart det jeg syntes er det fedeste ved programmering. Elsker at sidde og lege med apps, se hvad man kan gøre, og opfylde ønsker." TextColor="White" FontSize="16"/>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

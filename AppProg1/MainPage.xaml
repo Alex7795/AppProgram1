@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProg1.MainPage">
+
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Min portfolio" Padding="0,0,24,0" TextColor="White" HorizontalTextAlignment="Center" FontSize="30" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout BackgroundColor="Black">
+        <!--<Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+            <Label Text="Alexander Christensen" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>-->
+        <Label Text="Alexander Christensen" Padding="0,24,0,24" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Image Source="billeder/mig.jpg" HeightRequest="240" WidthRequest="240"/>
+        <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+            <Button Text="Om mig" TextTransform="None" FontSize="16" FontAttributes="Bold" Margin="128,12,128,0" Clicked="About_Clicked"/>
+            <Button Text="Kompetencer" TextTransform="None" FontSize="16" FontAttributes="Bold" Margin="128,0,128,0" Clicked="Skills_Clicked"/>
+            <Button Text="Uddannelse" TextTransform="None" FontSize="16" FontAttributes="Bold" Margin="128,0,128,0" Clicked="Education_Clicked"/>
+            <Button Text="Kontaktinformation" TextTransform="None" FontSize="16" FontAttributes="Bold" Margin="100,0,100,0" Clicked="Contacts_Clicked"/>
+            
+            <Label  Text="V. 0.1" FontSize="8" TextColor="White"/>
+            <Label  Text="" TextColor="White"/>
+        </StackLayout>
+    </StackLayout>
+
+   
+
+</ContentPage>
